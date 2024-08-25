@@ -1,0 +1,174 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap");
+
+/* box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* default settings */
+
+body {
+  font-family: "Castoro", serif;
+  line-height: 1.5;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.w-50 {
+  /*實際上設計稿中間還有24的間隔*/
+  width: calc(50% - 12px);
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+/* 什麼! Awards 下面兩行的間距竟然是 12px */
+.mb-2 {
+  margin-bottom: 8px;
+}
+
+.mb-3 {
+  margin-bottom: 12px;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+.wrapper {
+  margin-top: 160px;
+  margin-bottom: 160px;
+}
+
+.center {
+  text-align: center;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 128px;
+  letter-spacing: 0.12em;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.avatar img {
+  height: 848px;
+}
+
+.middle {
+  background-color: #efefef;
+  padding: 48px 0;
+  margin-bottom: 80px;
+}
+
+.middle p {
+  color: #000000;
+  font-size: 32px;
+}
+
+.info {
+  margin-bottom: 40px;
+}
+
+.info-title {
+  color: #ae0000;
+  font-size: 40px;
+  border-bottom: 3px solid #ae0000;
+}
+
+.info-content {
+  font-size: 24px;
+  color: #000000;
+}
+
+.years {
+  display: block;
+  color: #949494;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.footer {
+  background-color: #000000;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.footer li {
+  display: inline-block;
+}
+
+.footer a {
+  width: 64px;
+  height: 64px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
